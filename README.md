@@ -38,9 +38,7 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/agriconnect.git
-cd agriconnect
-```
+git clone https://github.com/it21336218/agriconnect.git
 
 ### 2. Install dependencies
 
