@@ -1,2 +1,130 @@
-# agriconnect
-In an age where technology is transforming every sector, agriculture is no exception. Farmers often struggle to reach their customers directly due to barriers in the traditional distribution chain high costs, limited market access, and reliance on middlemen. AgriConnect is here to change that. 
+# 🌾 AgriConnect
+
+**AgriConnect** is a full-stack platform designed to connect farmers directly with buyers, streamline agricultural transactions, and support resource sharing across rural communities. Built with the MERN stack, it ensures a fast, secure, and user-friendly experience for all stakeholders.
+
+---
+
+## 🚀 Features
+
+- 👨‍🌾 Farmer Registration & Product Listing  
+- 🛒 Buyer Dashboard for Browsing & Ordering Products  
+- 📦 Real-time Order Management & Notifications  
+- 📊 Analytics Dashboard for Crop & Sale Tracking  
+- 🔐 Secure Login for Farmers and Buyers  
+- 🌐 Mobile-responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js  
+- Tailwind CSS  
+- Axios  
+- React Router
+
+### Backend
+- Node.js  
+- Express.js  
+- MongoDB (Mongoose)  
+- JWT for Authentication  
+- Multer (Image/File Uploads)
+
+---
+
+## 📁 Folder Structure
+
+```
+agriconnect/
+├── client/               # React Frontend
+│   ├── components/
+│   ├── pages/
+│   └── services/
+├── server/               # Express Backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── middleware/
+├── .env
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/agriconnect.git
+cd agriconnect
+```
+
+### 2. Install dependencies
+
+- Backend:
+```bash
+cd server
+npm install
+```
+
+- Frontend:
+```bash
+cd ../client
+npm install
+```
+
+### 3. Set up environment variables
+
+Create a `.env` file in `server/`:
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+### 4. Run the application
+
+- Start the backend:
+```bash
+cd server
+npm run dev
+```
+
+- Start the frontend:
+```bash
+cd ../client
+npm start
+```
+
+Visit: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🛡️ Security
+
+- Role-based authentication (Farmers & Buyers)  
+- Data validation & sanitization  
+- JWT token-based sessions
+
+---
+
+## 📸 Screenshots
+
+*(Add UI screenshots or workflow previews here)*
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+✨ Built with love for farmers and communities!
