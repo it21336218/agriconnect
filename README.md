@@ -32,25 +32,7 @@
 
 ---
 
-## 📁 Folder Structure
 
-```
-agriconnect/
-├── client/               # React Frontend
-│   ├── components/
-│   ├── pages/
-│   └── services/
-├── server/               # Express Backend
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── middleware/
-├── .env
-├── package.json
-└── README.md
-```
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -109,11 +91,7 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📸 Screenshots
 
-*(Add UI screenshots or workflow previews here)*
-
----
 
 ## 🤝 Contributing
 
@@ -121,10 +99,5 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 ✨ Built with love for farmers and communities!
